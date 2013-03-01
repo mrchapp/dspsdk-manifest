@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote name="arago-project"
+		fetch="git://arago-project.org/git/" />
+	<remote name="gitotif"
+		fetch="ssh://git@gitorious.tif.ti.com" />
+	<remote name="github-ddiaz"
+		fetch="git://github.com/mrchapp/" />
+	<remote name="openembedded"
+		fetch="git://git.openembedded.org/" />
+	<default remote="github-ddiaz"
+		 revision="master" />
+
+	<project path="sources/meta-openembedded"
+		 name="meta-openembedded"
+		 remote="openembedded"
+		 revision="danny"
+		 />
+	<project path="sources/oe-core"
+		 name="openembedded-core"
+		 remote="openembedded"
+		 revision="danny"
+		 />
+	<project path="sources/bitbake"
+		 name="bitbake"
+		 remote="openembedded"
+		 revision="cc7fdbdc607df530f5539b162831bf9998eb48d8"
+		 />
+	<project path="sources/meta-arago"
+		 name="meta-arago.git"
+		 revision="dspsdk-00.02.00.02-integration"
+		 />
+	<project path="sources/meta-ti"
+		 name="meta-ti-amsdk.git"
+		 revision="dspsdk-00.02.00.02-integration"
+		 />
+	<project path="sources/meta-audiosdk"
+		 name="dspsdk/meta-audiosdk.git"
+		 remote="gitotif"
+		 revision="master"
+		 />
+
+</manifest>
