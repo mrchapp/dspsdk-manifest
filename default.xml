@@ -1,44 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
-	<remote name="arago-project"
-		fetch="git://arago-project.org/git/" />
-	<remote name="gitotif"
-		fetch="ssh://git@gitorious.tif.ti.com" />
-	<remote name="github-ddiaz"
-		fetch="git://github.com/mrchapp/" />
-	<remote name="openembedded"
-		fetch="git://git.openembedded.org/" />
-	<default remote="github-ddiaz"
-		 revision="master" />
-
-	<project path="sources/meta-openembedded"
-		 name="meta-openembedded"
-		 remote="openembedded"
-		 revision="danny"
-		 />
-	<project path="sources/oe-core"
-		 name="openembedded-core"
-		 remote="openembedded"
-		 revision="danny"
-		 />
-	<project path="sources/bitbake"
-		 name="bitbake"
-		 remote="openembedded"
-		 revision="cc7fdbdc607df530f5539b162831bf9998eb48d8"
-		 />
-	<project path="sources/meta-arago"
-		 name="meta-arago.git"
-		 revision="dspsdk-00.02.00.02-integration"
-		 />
-	<project path="sources/meta-ti"
-		 name="meta-ti-amsdk.git"
-		 revision="dspsdk-00.02.00.02-integration"
-		 />
-	<project path="sources/meta-audiosdk"
-		 name="dspsdk/meta-audiosdk.git"
-		 remote="gitotif"
-		 revision="master"
-		 />
-
+  <remote fetch="git://arago-project.org/git/" name="arago-project"/>
+  <remote fetch="git://github.com/mrchapp/" name="github-ddiaz"/>
+  <remote fetch="ssh://git@gitorious.tif.ti.com" name="gitotif"/>
+  <remote fetch="git://git.openembedded.org/" name="openembedded"/>
+  
+  <default remote="github-ddiaz" revision="master"/>
+  
+  <project name="bitbake" path="sources/bitbake" remote="openembedded" revision="cc7fdbdc607df530f5539b162831bf9998eb48d8"/>
+  <project name="dspsdk/meta-audiosdk.git" path="sources/meta-audiosdk" remote="gitotif" revision="3d2083f158154fb4829805c55a2812b6f04da101" upstream="master"/>
+  <project name="meta-arago.git" path="sources/meta-arago" revision="05fdae61be1e60162dfc7dde26116d108c5691c9" upstream="dspsdk-00.02.00.02-integration"/>
+  <project name="meta-openembedded" path="sources/meta-openembedded" remote="openembedded" revision="c02834a7cc5fda525c7ebeec545625233bab4cb5" upstream="danny"/>
+  <project name="meta-ti-amsdk.git" path="sources/meta-ti" revision="278f2f071d58e772b65c24c82b51b8627fe083cb" upstream="dspsdk-00.02.00.02-integration"/>
+  <project name="openembedded-core" path="sources/oe-core" remote="openembedded" revision="d961e42674bf929adfff391c6f3f284a7e7b0d95" upstream="danny"/>
 </manifest>
