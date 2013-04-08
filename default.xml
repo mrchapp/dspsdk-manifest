@@ -8,7 +8,7 @@
   <default remote="github-ddiaz" revision="master"/>
   
   <project name="bitbake" path="sources/bitbake" remote="openembedded" revision="cc7fdbdc607df530f5539b162831bf9998eb48d8"/>
-  <project name="dspsdk/meta-audiosdk.git" path="sources/meta-audiosdk" remote="gitotif" revision="eb6bee8c5c11c29de812d3f3b5095a576b951ace" upstream="master"/>
+  <project name="dspsdk/meta-audiosdk.git" path="sources/meta-audiosdk" remote="gitotif" revision="9768e3bbd78b6985167944ac4fdabbda6cbffc87" upstream="master"/>
   <project name="meta-arago.git" path="sources/meta-arago" revision="e4e83775137feda12b8a126a871854b4fd8dafe0" upstream="dspsdk-00.03.18.xx-integration"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="openembedded" revision="30ed918965489176633b8ddded018f798387ff82" upstream="danny"/>
   <project name="meta-ti-amsdk.git" path="sources/meta-ti" revision="cb88f21e0fc62729478aa7abf5f7dd2d067218b3" upstream="dspsdk-00.03.18.xx-integration"/>
