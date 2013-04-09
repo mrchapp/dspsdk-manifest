@@ -9,7 +9,7 @@
   
   <project name="bitbake" path="sources/bitbake" remote="openembedded" revision="cc7fdbdc607df530f5539b162831bf9998eb48d8"/>
   <project name="dspsdk/meta-audiosdk.git" path="sources/meta-audiosdk" remote="gitotif" revision="9768e3bbd78b6985167944ac4fdabbda6cbffc87" upstream="master"/>
-  <project name="meta-arago.git" path="sources/meta-arago" revision="e4e83775137feda12b8a126a871854b4fd8dafe0" upstream="dspsdk-00.03.18.xx-integration"/>
+  <project name="meta-arago.git" path="sources/meta-arago" revision="aa981f6be263a95dab30923aefda0baf5a8f0243" upstream="dspsdk-00.03.18.xx-integration"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="openembedded" revision="30ed918965489176633b8ddded018f798387ff82" upstream="danny"/>
   <project name="meta-ti-amsdk.git" path="sources/meta-ti" revision="cb88f21e0fc62729478aa7abf5f7dd2d067218b3" upstream="dspsdk-00.03.18.xx-integration"/>
   <project name="openembedded-core" path="sources/oe-core" remote="openembedded" revision="efb89b3fd5a96da70153f24c849d1436d1ba06cb" upstream="danny"/>
