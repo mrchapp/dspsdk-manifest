@@ -12,5 +12,5 @@
   <project name="meta-arago.git" path="sources/meta-arago" revision="4529fc08ef16b72e8ebe3178512851224486ad2d" upstream="dspsdk-00.03.18.xx-integration"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="openembedded" revision="34e5537e67b655b8d2effbbecc207d88eea52b87" upstream="danny"/>
   <project name="meta-ti-amsdk.git" path="sources/meta-ti" revision="e3848dc118915180e9e9eb4b6a554d4970567464" upstream="dspsdk-00.03.18.xx-integration"/>
-  <project name="openembedded-core" path="sources/oe-core" remote="openembedded" revision="efb89b3fd5a96da70153f24c849d1436d1ba06cb" upstream="danny"/>
+  <project name="openembedded-core" path="sources/oe-core" remote="openembedded" revision="9ab2fc380fe8b6e48c6501a4630cc3c583ed2da5" upstream="danny"/>
 </manifest>
