@@ -35,7 +35,7 @@
 		 />
 	<project path="sources/meta-audiosdk"
 		 name="meta-audiosdk.git"
-		 revision="master"
+		 revision="streamerapp-1.0"
 		 />
 
 </manifest>
