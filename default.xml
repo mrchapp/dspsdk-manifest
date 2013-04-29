@@ -29,11 +29,11 @@
 		 />
 	<project path="sources/meta-arago"
 		 name="meta-arago.git"
-		 revision="dspsdk-00.03.18.xx-integration"
+		 revision="dspsdk-00.04.29.xx-integration"
 		 />
 	<project path="sources/meta-ti"
 		 name="meta-ti-amsdk.git"
-		 revision="dspsdk-00.03.18.xx-integration"
+		 revision="dspsdk-00.04.29.xx-integration"
 		 />
 	<project path="sources/meta-audiosdk"
 		 name="dspsdk/meta-audiosdk.git"
