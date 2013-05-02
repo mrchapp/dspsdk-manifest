@@ -15,12 +15,12 @@
 	<project path="sources/meta-openembedded"
 		 name="meta-openembedded"
 		 remote="openembedded"
-		 revision="danny"
+		 revision="ba80b770c8ba6e38383b9ce142af68a8a6553f2e"
 		 />
 	<project path="sources/oe-core"
 		 name="openembedded-core"
 		 remote="openembedded"
-		 revision="danny"
+		 revision="d961e42674bf929adfff391c6f3f284a7e7b0d95"
 		 />
 	<project path="sources/bitbake"
 		 name="bitbake"
