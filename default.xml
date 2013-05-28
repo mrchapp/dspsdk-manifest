@@ -4,12 +4,10 @@
 	<remote name="arago-project"
 		fetch="git://arago-project.org/git/" />
 	<remote name="gitotif"
-		fetch="ssh://git@gitorious.tif.ti.com" />
-	<remote name="github-ddiaz"
-		fetch="git://github.com/mrchapp/" />
+		fetch="git://gitorious.tif.ti.com/dspsdk/" />
 	<remote name="openembedded"
 		fetch="git://git.openembedded.org/" />
-	<default remote="github-ddiaz"
+	<default remote="gitotif"
 		 revision="master" />
 
 	<project path="sources/meta-openembedded"
@@ -32,12 +30,11 @@
 		 revision="dspsdk-00.04.29.xx-integration"
 		 />
 	<project path="sources/meta-ti"
-		 name="meta-ti-amsdk.git"
+		 name="meta-ti.git"
 		 revision="dspsdk-00.04.29.xx-integration"
 		 />
 	<project path="sources/meta-audiosdk"
-		 name="dspsdk/meta-audiosdk.git"
-		 remote="gitotif"
+		 name="meta-audiosdk.git"
 		 revision="master"
 		 />
 
