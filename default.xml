@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://arago-project.org/git/" name="arago-project"/>
-  <remote fetch="git://github.com/mrchapp/" name="github-ddiaz"/>
-  <remote fetch="ssh://git@gitorious.tif.ti.com" name="gitotif"/>
+  <remote fetch="git://gitorious.tif.ti.com/dspsdk/" name="gitotif"/>
   <remote fetch="git://git.openembedded.org/" name="openembedded"/>
   
-  <default remote="github-ddiaz" revision="master"/>
+  <default remote="gitotif" revision="master"/>
   
   <project name="bitbake" path="sources/bitbake" remote="openembedded" revision="cc7fdbdc607df530f5539b162831bf9998eb48d8"/>
-  <project name="dspsdk/meta-audiosdk.git" path="sources/meta-audiosdk" remote="gitotif" revision="f8ec14636fdecdec79c27fe1b9378d47e8f8c994" upstream="master"/>
   <project name="meta-arago.git" path="sources/meta-arago" revision="e2e2685946406ddfcff7d2f19d6d0624d3fe2449" upstream="dspsdk-00.04.29.xx-integration"/>
+  <project name="meta-audiosdk.git" path="sources/meta-audiosdk" revision="05412433d0258919e58ce6be73fcf185f1556ecd" upstream="master"/>
   <project name="meta-openembedded" path="sources/meta-openembedded" remote="openembedded" revision="ba80b770c8ba6e38383b9ce142af68a8a6553f2e"/>
-  <project name="meta-ti-amsdk.git" path="sources/meta-ti" revision="20432682013bf7b51c478fe51a6296f44827c72c" upstream="dspsdk-00.04.29.xx-integration"/>
+  <project name="meta-ti.git" path="sources/meta-ti" revision="20432682013bf7b51c478fe51a6296f44827c72c" upstream="dspsdk-00.04.29.xx-integration"/>
   <project name="openembedded-core" path="sources/oe-core" remote="openembedded" revision="d961e42674bf929adfff391c6f3f284a7e7b0d95"/>
 </manifest>
